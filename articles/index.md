@@ -2,7 +2,7 @@
 
 Engine4 Has many features to get you up in the game.
 
-## Basics
+## (Basics)[basics.md]
 
 The introduction to four dimension and the library.
 
