@@ -1,3 +1,5 @@
+- name: Home
+  href: index.md
 - name: Basics
   href: basics.md
   items:
@@ -36,7 +38,7 @@
     items:
     - name: Building Blocks
       href: modeling\buffer\buildingblocks.md
-    - name: Multisimplex
+    - name: Multi Simplex
       href: modeling\buffer\multisimplex.md
     - name: Profiles
       href: modeling\buffer\profiles.md
@@ -59,29 +61,24 @@
   - name: Projections
     href: rendering\projections.md
     items:
-    - name: Crosssection
+    - name: Cross Section
       href: rendering\projections\crosssection.md
     - name: Frustum
       href: rendering\projections\frustum.md
   - name: Visualizer
     href: rendering\visualizer.md
     items:
-    - name: Custom
-      href: rendering\visualizer\custom.md
     - name: Default
       href: rendering\visualizer\default.md
+    - name: Custom
+      href: rendering\visualizer\custom.md
 - name: Physics
   href: physics.md
   items:
   - name: Colliders
     href: physics\colliders.md
-    items:
-    - name: Box
-      href: physics\colliders\box.md
-    - name: Capsule
-      href: physics\colliders\capsule.md
-    - name: Sphere
-      href: physics\colliders\sphere.md
+  - name: Rigidbody
+    href: physics\rigidbody.md
   - name: Global
     href: physics\global.md
     items:
@@ -89,8 +86,6 @@
       href: physics\global\configuration.md
     - name: Raycast
       href: physics\global\raycast.md
-  - name: Rigidbody
-    href: physics\rigidbody.md
 - name: Scripting
   href: scripting.md
   items:
@@ -104,7 +99,7 @@
   items:
   - name: About
     href: extras\about.md
-  - name: Knownissues
-    href: extras\knownissues.md
-  - name: Releasenotes
+  - name: Release Notes
     href: extras\releasenotes.md
+  - name: Known Issues
+    href: extras\knownissues.md
