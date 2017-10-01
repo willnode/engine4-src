@@ -2,25 +2,25 @@
 
 Engine4 Has many features to get you up in the game.
 
-## (Basics)[basics.md]
+## Basics
 
-The introduction to four dimension and the library.
+Introduction to fourth dimension and the library.
 
-## Transformations
+## Modeling
 
-Learn to setup a scene and manipulate four dimensional objects.
+Learn to procedurally create a 4D object.
 
 ## Rendering
 
-Costumize how it looks, how it projected.
+Costumize how it looks, how it projecs.
 
 ## Physics
 
-Simulate four dimensional objects like the real world.
+Simulate four dimensional objects like in the real world.
 
 ## Scripting
 
-Adapt the scene, add some interactions, mix some magics.
+Adapt the scene, add some interactions, make some magics.
 
 ## Extras
 

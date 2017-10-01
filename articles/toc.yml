@@ -1,20 +1,110 @@
-- name: Introduction
-  href: intro.md
 - name: Basics
   href: basics.md
   items:
-  - name: Fourth Dimension
-    href: basics/4d.md
+  - name: 4D
+    href: basics\4d.md
     items:
-    - name: Concept
-      href: basics/4d/concept.md
-- name: Transformations
-  href: transformations/
+    - name: Abstract
+      href: basics\4d\abstract.md
+    - name: Property
+      href: basics\4d\property.md
+    - name: Projection
+      href: basics\4d\projection.md
+    - name: Convention
+      href: basics\4d\convention.md
+  - name: Components
+    href: basics\components.md
+    items:
+    - name: Hierarchy
+      href: basics\components\hierarchy.md
+    - name: Inheritance
+      href: basics\components\inheritance.md
+  - name: Transform
+    href: basics\transform.md
+    items:
+    - name: Component
+      href: basics\transform\component.md
+    - name: Gizmo Handle
+      href: basics\transform\gizmohandle.md
+    - name: Navigation
+      href: basics\transform\navigation.md
+- name: Modeling
+  href: modeling.md
+  items:
+  - name: Buffer
+    href: modeling\buffer.md
+    items:
+    - name: Building Blocks
+      href: modeling\buffer\buildingblocks.md
+    - name: Multisimplex
+      href: modeling\buffer\multisimplex.md
+    - name: Profiles
+      href: modeling\buffer\profiles.md
+    - name: Sequencer
+      href: modeling\buffer\sequencer.md
+  - name: Modeler
+    href: modeling\modeler.md
+    items:
+    - name: Cylinder
+      href: modeling\modeler\cylinder.md
+    - name: Primitive
+      href: modeling\modeler\primitive.md
+    - name: Sphere
+      href: modeling\modeler\sphere.md
+    - name: Custom
+      href: modeling\modeler\custom.md
 - name: Rendering
-  href: rendering/
+  href: rendering.md
+  items:
+  - name: Projections
+    href: rendering\projections.md
+    items:
+    - name: Crosssection
+      href: rendering\projections\crosssection.md
+    - name: Frustum
+      href: rendering\projections\frustum.md
+  - name: Visualizer
+    href: rendering\visualizer.md
+    items:
+    - name: Custom
+      href: rendering\visualizer\custom.md
+    - name: Default
+      href: rendering\visualizer\default.md
 - name: Physics
-  href: physics/
+  href: physics.md
+  items:
+  - name: Colliders
+    href: physics\colliders.md
+    items:
+    - name: Box
+      href: physics\colliders\box.md
+    - name: Capsule
+      href: physics\colliders\capsule.md
+    - name: Sphere
+      href: physics\colliders\sphere.md
+  - name: Global
+    href: physics\global.md
+    items:
+    - name: Configuration
+      href: physics\global\configuration.md
+    - name: Raycast
+      href: physics\global\raycast.md
+  - name: Rigidbody
+    href: physics\rigidbody.md
 - name: Scripting
-  href: scripting/
+  href: scripting.md
+  items:
+  - name: Gizmos
+    href: scripting\gizmos.md
+    items:
+  - name: MonoBehaviour4
+    href: scripting\monobehaviour4.md
 - name: Extras
-  href: extras/
+  href: extras.md
+  items:
+  - name: About
+    href: extras\about.md
+  - name: Knownissues
+    href: extras\knownissues.md
+  - name: Releasenotes
+    href: extras\releasenotes.md
