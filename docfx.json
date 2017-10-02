@@ -1,18 +1,7 @@
 {
   "metadata": [
     {
-      "src": [
-        {
-          "files": [
-            "src/**.csproj"
-          ],
-          "exclude": [
-            "**/obj/**",
-            "**/bin/**",
-            "_site/**"
-          ]
-        }
-      ],
+      "src": "src/**.dll",
       "dest": "api"
     }
   ],
@@ -63,7 +52,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "template"
     ],
     "postProcessors": [],
     "noLangKeyword": false,

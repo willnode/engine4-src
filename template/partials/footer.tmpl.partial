@@ -1,0 +1,12 @@
+<footer>
+  <div class="grad-bottom"></div>
+  <div class="footer">
+    <div class="container">
+      <span class="pull-right">
+        <a href="#top">▲</a>
+      </span>
+      {{{_appFooter}}}
+      {{^_appFooter}}<span>Copyright © 2017 Wello Soft</span>{{/_appFooter}}
+    </div>
+  </div>
+</footer>

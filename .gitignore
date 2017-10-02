@@ -1,9 +1,12 @@
 ###############
 #    folder   #
 ###############
+_exported_templates
 /**/DROP/
 /**/TEMP/
 /**/packages/
 /**/bin/
 /**/obj/
 _site
+src/
+/**/*.meta

@@ -2,4 +2,4 @@
   href: articles/
 - name: Scripting API
   href: api/
-  homepage: index.md
+  topicHref: api/index.md
