@@ -16,10 +16,12 @@
 </div>
 {{/implements.0}}
 <div class="inheritance">
-  <h5>{{__global.inheritance}}</h5>
+  <h5>{{__global.inheritance}} </h5>
   {{#inheritance}} <div class="level{{index}}">{{{specName.0.value}}}</div> {{/inheritance}} 
   <div class="level{{level}}"><span class="xref">{{name.0.value}}</span></div>  
-  {{#derivedClasses}} <div class="level{{index}}">{{{specName.0.value}}}</div>  {{/derivedClasses}}
+<div class="derivations">
+  {{#derivedClasses}}<div class="level{{index}}">{{{specName.0.value}}}</div>  {{/derivedClasses}}
+</div>
 </div>
 {{/inClass}}
 {{#syntax.parameters.0}}

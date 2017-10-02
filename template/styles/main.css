@@ -19,12 +19,8 @@ a.anchorjs-link {
 }
 
 .sidetoc.shiftup {
-  bottom: 50px;
+  bottom: 40px;
   border: width  color;
-}
-
-.sideaffix {
-display:none
 }
 
 article h4{
@@ -49,23 +45,24 @@ pre{
 border-radius:0px
 }
 
-.inheritance {
+
+.inheritance , .derivations {
   display:inline-flex;
+  flex-wrap: wrap;
 vertical-align:bottom;
-height:0.8em;  
 }
 
-.inheritance h5 {
+.inheritance h5, .derivations h5  {
   border-bottom:0px transparent;
   margin-top:2px;  
-  margin-bottom:1px;
+  margin-bottom:0px;  
 }
+
 
 .inheritance .level0:before {
     content: '';  
-    margin-right: 0px;
-    margin-left: 4px;
 }
+
 .inheritance .level1:before,
 .inheritance .level2:before,
 .inheritance .level3:before,
@@ -84,4 +81,47 @@ height:0.8em;
 .inheritance .level4,
 .inheritance .level5 {
     margin-left: 2px;
+}
+
+  
+.derivations .level1:before,
+.derivations .level2:before,
+.derivations .level3:before,
+.derivations .level4:before,
+.derivations .level5:before {
+    content: '»';
+    margin-right: 3px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.derivations .level0,
+.derivations .level1,
+.derivations .level2,
+.derivations .level3,
+.derivations .level4,
+.derivations .level5 {
+    margin-left: 2px;
+}
+
+
+.toc ul {
+    margin: 0 0 0 0px;
+}
+
+ .nav.level3 {
+    margin: 0 0 0 10px;
+}
+
+
+.footer {
+    padding: 8px 0;
+}
+
+.sidetoc {
+  top: 110px;
+}
+
+.sidefilter {
+  top: 50px;
 }

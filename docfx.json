@@ -2,7 +2,8 @@
   "metadata": [
     {
       "src": "src/**.dll",
-      "dest": "api"
+      "dest": "api",
+      "filter": "filterapi.yml"
     }
   ],
   "build": {
@@ -49,12 +50,17 @@
       }
     ],
     "dest": "_site",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
     "template": [
       "default",
       "template"
     ],
+    "globalMetadata": {
+      "_appTitle": "Engine4 Manual",
+      "_enableSearch": true,
+      "_disableBreadcrumb": true,
+      "_disableAffix": true,
+      "_disableContribution": true
+    },
     "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
