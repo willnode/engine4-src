@@ -6,7 +6,7 @@
 .toc .nav > li.in > .expand-stub::before,
 .toc .nav > li.in.active > .expand-stub::before,
 .toc .nav > li.filtered > .expand-stub::before {
-    content: "‒";
+    content: "\2012";
 }
 
 .toc .nav > li > .expand-stub::before,
@@ -19,7 +19,7 @@ a.anchorjs-link {
 }
 
 .sidetoc.shiftup {
-  bottom: 40px;
+  bottom: 38px;
   border: width  color;
 }
 
@@ -68,7 +68,7 @@ vertical-align:bottom;
 .inheritance .level3:before,
 .inheritance .level4:before,
 .inheritance .level5:before {
-    content: '❱';
+    content: '\2771';
     margin-right: 3px;
     margin-left: 5px;
     display: inline-block;
@@ -89,7 +89,7 @@ vertical-align:bottom;
 .derivations .level3:before,
 .derivations .level4:before,
 .derivations .level5:before {
-    content: '»';
+    content: '\bb';
     margin-right: 3px;
     margin-left: 5px;
     display: inline-block;

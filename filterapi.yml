@@ -3,3 +3,15 @@ apiRules:
       uidRegex: ^Engine4\.Editing$
 - exclude:
       uidRegex: ^Engine4\.Example$
+- exclude:
+      hasAttribute:
+        uid: Engine4.Internal.HideInDocs
+- exclude:
+     uidRegex: ^Engine4\.ViewerDispatch.+$
+     type: Member
+- exclude:
+     uidRegex: ^Engine4\..+Callback.+$
+     type: Member
+- exclude:
+     uidRegex: ^.+\.(ToString|GetHashCode|Equals)$
+     type: Member
