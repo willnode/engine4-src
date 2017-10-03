@@ -1,6 +1,6 @@
 # Engine4 Manual Guide
 
-Engine4 Has many features to get you up in the game.
+Engine4 have many features to get you up to create four-dimensional games.
 
 ## @Basics
 
@@ -12,7 +12,7 @@ Learn to procedurally create a 4D object.
 
 ## @Rendering
 
-Costumize how it looks, how it projecs.
+Costumize how it looks, how it projects.
 
 ## @Physics
 
@@ -20,7 +20,7 @@ Simulate four dimensional objects like in the real world.
 
 ## @Scripting
 
-Adapt the scene, add some interactions, make some magics.
+Adapt the scene, add some interactions, make a magic everywhere.
 
 ## @Extras
 

@@ -1,8 +1,8 @@
 # Engine4 Scripting Reference
 
-This section provides the documentation for all scripting members that documented through C# XML documentation. Either you use this documentation, or directly code via intellisensing, the content are just the same!
+This section provides the documentation for all scripting members that documented through C# XML documentation. Either you use this documentation, or directly peek the code via intellisensing, the content are just the same!
 
-Engine4 divides the API into namespaces...
+Engine4 API is divided into several namespaces...
 
 ## @Engine4
 
@@ -16,11 +16,11 @@ Contains shared helper and utilies.
 
 Contains built-in preset and libraries for certain tasks.
 
-Undocumented namespaces....
+Undocumented namespaces (yet)....
 
 ## Engine4.Physics
 
-Contains internal working of the physics engine.
+Contains the internal working of the physics engine.
 
 ## Engine4.Editing
 

@@ -1,3 +1,5 @@
+![Engine4 Logo](images/Engine4-Black.png)
+
 # Welcome to Engine4 Manual v3.0
 
 Engine4 is a library that empowers the ability create four-dimensional scenes inside Unity Game Engine. We aim to develop this library with range of features so you can build more complex scenes without even think how it works.
@@ -6,7 +8,7 @@ If you new to Engine4 then go on, otherwise you can click the Manual for usage i
 
 ## The Main Goal
 
-Engine4 helps you to create four dimensional scenes inside Unity Game Engine, so you can focus on creating games, not the technical challenges, and think that 'everything' is upgradable to a highe dimension.
+Engine4 helps you to create four dimensional scenes inside Unity Game Engine, so you can focus on creating games, not the technical challenges, and think that 'everything' is upgradable to a higher dimension.
 
 ## The Secret Sauce
 
@@ -28,4 +30,4 @@ These Limitation is our TODOs for the next development of the library.
 
 ## Helpful Links
 
-[Asset Link](http://u3d.as/mFe) | Online Documentation | Support Forum | [Developer Website](https://wellosoft.wordpress.com/)
+[Asset Link](http://u3d.as/fdm) | [Online Documentation](#) | [Support Forum](https://forum.unity.com/threads/mesh-4d-engine-create-4d-objects-in-unity.320549/) | [Developer Website](https://wellosoft.wordpress.com/)

@@ -59,7 +59,8 @@
       "_enableSearch": true,
       "_disableBreadcrumb": true,
       "_disableAffix": true,
-      "_disableContribution": true
+      "_disableContribution": true,
+      "_appLogoPath": "images/Engine4-Logo.png"
     },
     "postProcessors": [],
     "noLangKeyword": false,
