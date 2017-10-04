@@ -6,14 +6,14 @@
   - name: 4D
     href: basics\4d.md
     items:
-    - name: Abstract
-      href: basics\4d\abstract.md
-    - name: Property
-      href: basics\4d\property.md
     - name: Projection
       href: basics\4d\projection.md
-    - name: Convention
-      href: basics\4d\convention.md
+    - name: Notation
+      href: basics\4d\notation.md
+    - name: Rotation
+      href: basics\4d\rotation.md
+    - name: Going deeper
+      href: basics\4d\deeper.md
   - name: Components
     href: basics\components.md
     items:

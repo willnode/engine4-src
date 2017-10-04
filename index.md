@@ -24,9 +24,12 @@ The library is doing the runtime hardwork without external depedencies.  Any inp
 
 These Limitation is our TODOs for the next development of the library.
 
-+ Does all the hardwork in single main thread.
++ Currently does all the hardwork in single main thread.
++ No support for rendering via graphic acceleration.
 + Only limited set of shapes that supported by the Physics Engine.
 + Building shapes can only done via procedural creations.
++ Cross section doesn't know how to UV properly.
++ Four-dimensional gizmo isn't properly implemented.
 
 ## Helpful Links
 
