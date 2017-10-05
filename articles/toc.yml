@@ -17,8 +17,10 @@
   - name: Components
     href: basics\components.md
     items:
-    - name: Hierarchy
+    - name: Rendering
       href: basics\components\hierarchy.md
+    - name: Physics
+      href: basics\components\physics.md
     - name: Inheritance
       href: basics\components\inheritance.md
   - name: Transform
@@ -26,10 +28,8 @@
     items:
     - name: Component
       href: basics\transform\component.md
-    - name: Gizmo Handle
-      href: basics\transform\gizmohandle.md
-    - name: Navigation
-      href: basics\transform\navigation.md
+    - name: Editing
+      href: basics\transform\editing.md
 - name: Modeling
   href: modeling.md
   items:
