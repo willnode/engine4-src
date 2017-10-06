@@ -126,6 +126,10 @@ vertical-align:bottom;
   top: 50px;
 }
 
+.toc-filter {
+    border-radius: 0px;
+}
+
 .form-control {
   height:50px;
   padding:0px 20px!important;

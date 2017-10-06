@@ -33,17 +33,6 @@
 - name: Modeling
   href: modeling.md
   items:
-  - name: Buffer
-    href: modeling\buffer.md
-    items:
-    - name: Building Blocks
-      href: modeling\buffer\buildingblocks.md
-    - name: Multi Simplex
-      href: modeling\buffer\multisimplex.md
-    - name: Profiles
-      href: modeling\buffer\profiles.md
-    - name: Sequencer
-      href: modeling\buffer\sequencer.md
   - name: Modeler
     href: modeling\modeler.md
     items:
@@ -55,6 +44,15 @@
       href: modeling\modeler\sphere.md
     - name: Custom
       href: modeling\modeler\custom.md
+  - name: Buffer
+    href: modeling\buffer.md
+    items:
+    - name: Simplexes
+      href: modeling\buffer\simplexes.md
+    - name: Sequencer
+      href: modeling\buffer\sequencer.md
+    - name: Profiles
+      href: modeling\buffer\profiles.md
 - name: Rendering
   href: rendering.md
   items:

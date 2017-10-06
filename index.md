@@ -12,29 +12,32 @@ Engine4 helps you to create four dimensional scenes inside Unity Game Engine, so
 
 ## The Secret Sauce
 
-The library is doing the runtime hardwork without external depedencies. Any input data that feeded into the library are processed into a projected shape that renderable with conventional 3D rendering engines.
+The library is doing the runtime hardwork without external depedencies. Any input data that feeded into the library are processed into a projected shape that is renderable with conventional 3D rendering engines.
 
 Note that because Unity is a 3D Game Engine. Engine4 mostly do not use advanced features inside as it is *limited* to 3D space. 
 
 ## Major Features
 
 + Builtin Datatypes, Camera, Transformation, Rendering, Builder, Gizmo, Physics Library.
-+ Full Scripting API without external libraries
++ Full Scripting API and source code access without external libraries
 + Cross platform
 + Optimized
 
 ## Limitations
 
-These Limitation is our TODOs for the next development of the library.
+These honest limitation and issues is our TODOs for the next development of the library.
 
-+ Currently does all the hardwork in single main thread (job system pending).
++ Currently does all the hardwork in single main thread (job system?).
 + No support for rendering via graphic acceleration (how?).
-+ No support for batching (does it makes sense?).
-+ No particle generator (yet).
++ No particle system generator (but we have its renderer).
 + Only limited set of shapes that supported by the Physics Engine.
++ Physics Engine doesn't include joints and character controller.
++ Matrix to euler (in 4d) is not work on 90 deg singularity cases (this issue only impacts editor experience).
 + Building shapes can only done via procedural creations.
-+ Cross section doesn't know how to play with UV.
++ Cross section doesn't really know how to play with UV.
 + Four-dimensional gizmo isn't properly implemented.
++ The documentation has many grammar mistake (contrib welcome anyway).
++ There are no real games published with this library so far.
 
 ## Helpful Links
 

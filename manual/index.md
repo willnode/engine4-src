@@ -1,4 +1,4 @@
-# Engine4 Manual Guide
+# Engine4 Manual
 
 Engine4 have many features to get you up to create four-dimensional games.
 
