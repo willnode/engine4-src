@@ -10,13 +10,15 @@ Contains main engine classes and libraries.
 
 ## @Engine4.Internal
 
-Contains shared helper and utilies.
+Contains shared helper and utilities.
 
 ## @Engine4.Rendering
 
 Contains built-in preset and libraries for certain tasks.
 
-Undocumented namespaces (yet)....
+***
+
+Undocumented namespaces ....
 
 ## Engine4.Physics
 

@@ -7,6 +7,7 @@ The table below highlights derivations of these components.
 ## Modeler4
 
 | Component | Summary |
+|---|---|
 | Primitive4 | Model regular 4D objects |
 | Sphere4 | Model sphere-like objects |
 | Cylinder4 | Model 4D cylinder from any 3D mesh |
@@ -16,6 +17,7 @@ The table below highlights derivations of these components.
 # Visualizer4
 
 | Component | Summary |
+|---|---|
 | ParticleExtended4 | Extended version of default particle visualizer |
 | WireExtended4 | Extended version of default wire visualizer |
 | SolidExtended4 | Extended version of default solid visualizer |
@@ -27,18 +29,20 @@ The table below highlights derivations of these components.
 # Projector4
 
 | Component | Summary |
+|---|---|
 | Frustum4 | Frustum projection |
 | CrossSection4 | Cross section projection |
 
-> [INFO]
+> [!NOTE]
 > There is possibility to create custom projection method, however the world only knows two. Anyway if you wish so, [click here].
 
 # Collider4
 
 | Component | Summary |
+|---|---|
 | BoxCollider4 | Box-shaped collider in 4D |
 | SphereCollider4 | Sphere-shaped collider in 4D |
 | CapsuleCollider4 | Capsule-shaped collider in 4D |
 
-> [INFO]
+> [!NOTE]
 > You can't create custom collider shape as our internal physics engine is fixed to these shapes.

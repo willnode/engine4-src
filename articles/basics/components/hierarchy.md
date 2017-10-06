@@ -1,7 +1,7 @@
 
 # Components in Hierarchy
 
-There are lot of components inside Engine4. These components below always required in order a rendered and projected 4D object can be generated.
+There are lot of components for rendering inside Engine4. These components below always required in order a rendered and projected 4D object can be generated.
 
 #### Renderer4
 
@@ -19,7 +19,7 @@ Overloadable: Yes
 Lies in: Every 4D object (can have multiple)
 ```
 
-`Modeler4` decides what kind of shape that needs to be created. It's overloadable so youo can create whatever you can imagine.
+`Modeler4` decides what kind of shape that needs to be created. It's overloadable so you can create whatever kind of shape you can imagine.
 
 #### Transform4
 
@@ -55,7 +55,7 @@ Overloadable: Yes
 Lies in: Every 4D object (optional)
 ```
 
-`Visualizer4` send the projected 3D buffer to MeshFilter. The behaviour can be customized for more complex and fancy looking. It is optional because the default visualizer does not require to be attached in every 4D object.
+`Visualizer4` sends the projected 3D buffer to MeshFilter. The behaviour can be customized for more complex and fancy looking. It is optional because the default visualizer does not require to be attached in every 4D object.
 
 ## Summary
 

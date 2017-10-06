@@ -13,17 +13,15 @@ While Unity requires every game object to have `Transform`, `Transform4` doesn't
 
 Please note `Transform` and `Transform4` are mutually exclusive and have nothing to do with each other. This also means you can mix between two values without problem at all.
 
-> [WARNING]
-> Yes, you can mix those values but please never do that because:
-> (1): it definitely add more confusion to your teams.
-> (2): Engine4 physics engine completely ignore 3D transform.
+> [!WARNING]
+> We never recommend you to do that.
 
 ## Parenting
 
 `Transform4` can handle parenting much like standard `Transform`. You even can put `Transform4` inside to a parent which have no `Transform4` at all.
 
-> [WARNING]
-> There **is** a difference: See the next section.
+> [!WARNING]
+> There **is** a difference: (See the next section).
 
 ## Scaling Dilemma
 
