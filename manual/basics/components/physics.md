@@ -4,7 +4,7 @@ Besides its rendering capacibility, Engine4 also have been equipped with dedicat
 
 These components are required in order to make the physics simulation work for a given object.
 
-#### Rigidbody4
+#### @Engine4.Rigidbody4
 
 ```none
 Overloadable: No
@@ -13,7 +13,7 @@ Lies in: Every 4D object
 
 `Rigidbody4` feeds collider and transform components to the internal engine and keep it in sync over fixed frame update. You can also change how the object react with its environment though its properties.
 
-#### Collider4
+#### @Engine4.Collider4
 
 ```none
 Overloadable: No
@@ -22,7 +22,7 @@ Lies in: Every 4D object (can have multiple)
 
 `Collider4` defines the rigid shape of a rigidbody. You can put a collider as the child of rigidbody.
 
-#### Physics4
+#### @Engine4.Physics4
 
 ```none
 Overloadable: No

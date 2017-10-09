@@ -26,4 +26,3 @@ Engine4 Documentation Content is adhere to CC-BY-3.0. Code Snippets can be copie
 Engine4 Project is an ambitious, long-term project with incredible passion `everything is upgradable`.
 
 -- [willnode](https://willnode.github.io)
-*maintainer*

@@ -8,6 +8,7 @@ Most of the cases you'll see that the projected model is look like its *downgrad
 
 ## Visualization Depedency
 |When renderer need # (visualization type)|Give me # (simplex shape)|
+|---|---|
 |Particle|Line|
 |Wire|Triangle|
 |Solid|Tetrahedron|
@@ -16,5 +17,5 @@ Most of the cases you'll see that the projected model is look like its *downgrad
 
 This projection doesn't have any meaningful property.
 
-> [!NOTE]
+> [!TIP]
 > Because of its simplicity, Cross Section is considered the default projection mode for any new Viewer4.

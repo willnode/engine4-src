@@ -44,6 +44,13 @@
       href: modeling\modeler\sphere.md
     - name: Custom
       href: modeling\modeler\custom.md
+  - name: Modifier
+    href: modeling\modifier.md
+    items:
+    - name: UV Mapper
+      href: modeling\modifier\uvmapper.md
+    - name: Custom
+      href: modeling\modifier\custom.md
   - name: Buffer
     href: modeling\buffer.md
     items:
@@ -87,11 +94,14 @@
 - name: Scripting
   href: scripting.md
   items:
+  - name: Introduction
+    href: scripting\begin.md
+  - name: Transform
+    href: scripting\transform.md
+  - name: Cross-Dot
+    href: scripting\crossdot.md
   - name: Gizmos
     href: scripting\gizmos.md
-    items:
-  - name: MonoBehaviour4
-    href: scripting\monobehaviour4.md
 - name: Extras
   href: extras.md
   items:

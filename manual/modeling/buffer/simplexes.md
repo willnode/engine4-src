@@ -9,7 +9,7 @@ The simplest shape that you can build for the N-dimension is called `Simplex`. A
 |2-Simplex|Triangle|
 |3-Simplex|Tetrahedron|
 
-Why this is matter? While 3D mesh are built with either points, segments or triangles, Buffer4 will allow you to **create models from tethrahedrons**. The benefit is not just stop there, if you have seen @Engine4.Renderer4 (click if you haven't read yet) then you know this legit dropdown:
+Why this is matter? While 3D mesh are built with either points, segments or triangles, Buffer4 will allow you to **create models from bunch of tethrahedron**. The benefit is not just stop there, if you have seen @Engine4.Renderer4 (click if you haven't read yet) then you know this legit dropdown:
 
 [visualizerchoices]
 

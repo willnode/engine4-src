@@ -19,26 +19,39 @@ Note that because Unity is a 3D Game Engine. Engine4 mostly do not use advanced 
 ## Major Features
 
 + Builtin Datatypes, Camera, Transformation, Rendering, Builder, Gizmo, Physics Library.
-+ Full Scripting API and source code access without external libraries
-+ Cross platform
-+ Optimized
++ Full Scripting API and source code access without external libraries.
++ HTML based documentation with documented scripting APIs.
++ Cross platform.
++ Optimized.
 
 ## Limitations
 
-These honest limitation and issues is our TODOs for the next development of the library.
+These honest limitation is our TODOs for the next development of the library.
 
 + Currently does all the hardwork in single main thread (job system?).
-+ No support for rendering via graphic acceleration (how?).
++ No support for rendering via graphic acceleration.
 + No particle system generator (but we have its renderer).
 + Only limited set of shapes that supported by the Physics Engine.
 + Physics Engine doesn't include joints and character controller.
-+ Matrix to euler (in 4d) is not work on 90 deg singularity cases (this issue only impacts editor experience).
 + Building shapes can only done via procedural creations.
-+ Cross section doesn't really know how to play with UV.
-+ Four-dimensional gizmo isn't properly implemented.
++ No dedicated 4D graphics solution included (skybox, lighting, fog etc.)
++ Engine4 is not well suited for multi-scene scenarios.
 + The documentation has many grammar mistake (contrib welcome anyway).
 + There are no real games published with this library so far.
 
+#### Known issues to be resolved during Beta Session
+
++ Documentation manual is still under work.
++ Matrix to euler fail to work for 90 deg singularity cases (this issue only impacts editor experience).
++ UvMapper4 doesn't generate UV correctly.
++ Frustum4 doesn't correctly cull objects if too close.
++ Components isn't organized in add component menu.
++ Gizmos4's late update rendering.
++ No INeedScaleTransform.
+
+> [!NOTE]
+> Beta session run until the rest of the month. During it, APIs may updated without notice.
+
 ## Helpful Links
 
-[Asset Link](http://u3d.as/fdm) | [Online Documentation](https://willnode.github.io/engine4-doc/index.html) | [Support Forum](https://forum.unity.com/threads/mesh-4d-engine-create-4d-objects-in-unity.320549/) | [Developer Website](https://wellosoft.wordpress.com/)
+[Asset Link](http://u3d.as/fdm) | [Online Documentation](https://willnode.github.io/engine4-doc/index.html) | [Offline Documentation](https://github.com/willnode/engine4-doc/) | [Support Forum](https://forum.unity.com/threads/mesh-4d-engine-create-4d-objects-in-unity.320549/) | [Developer Website](https://wellosoft.wordpress.com/)

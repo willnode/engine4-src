@@ -26,5 +26,5 @@ This kind of projection is what most people recognize as what is 4D objects look
 
 [demographic]
 
-> [WARNING]
+> [!WARNING]
 > There are known but rare issue where frustum culling might be broken if model were too close to the camera.

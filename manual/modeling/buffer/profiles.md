@@ -1,12 +1,27 @@
 # Profiles
 
-Profile is a way to add more vertex metadata (for instance, `color` and `uv`) and can be done directly by using the overloaded Buffer4.AddVertex
-
-> [!CAUTION]
-> Adding a vertex profile is possible but not fully supported and there's a chance that this behaviour changed in future version
+Profile is a way to add vertex metadata (i.e. `color` and `uv`) and can be done via @Engine4.Buffer4.AddProfile(Engine4.VertexProfile) or @Engine4.Buffer4.SetProfile(System.Int32,UnityEngine.Color) or  @Engine4.Buffer4.SetProfile(System.Int32,UnityEngine.Vector4,System.Int32).
 
 > [!NOTE]
-> Even you specify profile to the buffer, It won't work if @Engine4.Renderer4.Profile is set to `none`
+> Buffer profiles are discarded when @Engine4.Buffer4.ProfileDifference is not `0` or profile @Engine4.Renderer4.profile is set to `none`
 
-> [!TIP]
-> You can check @Engine4.Buffer4.useProfile to see if adding profiles are necessary.
+## UV Specification
+
+Engine4 treats UVs based on their simplex type:
+
+|Simplex type|UV dimension|
+|---|---|
+|Point|0D|
+|Line|1D|
+|Triangle|2D|
+|Tetrahedron|3D|
+
+[demographic]
+
+These specification is important as each Engine4 projector treat UVs differently:
+
++ Frustum4 interpolate all UVs if it culled by frustum cone.
++ CrossSection4 projects UV (eg. `3D` to `2D` for solid projection). This didn't happen for `UV3` (so user may use that for shader effects).
+
+
+

@@ -14,6 +14,12 @@ The table below highlights derivations of these components.
 
 [Create custom model]
 
+## Modifier4
+
+| Component | Summary |
+|---|---|
+| UvMapper4 | Generate UVs |
+
 # Visualizer4
 
 | Component | Summary |
