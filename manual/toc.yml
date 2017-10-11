@@ -8,10 +8,10 @@
     items:
     - name: Projection
       href: basics\4d\projection.md
-    - name: Notation
-      href: basics\4d\notation.md
     - name: Rotation
       href: basics\4d\rotation.md
+    - name: Notation
+      href: basics\4d\notation.md
     - name: Going deeper
       href: basics\4d\deeper.md
   - name: Components

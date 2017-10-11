@@ -60,7 +60,7 @@
       "_disableBreadcrumb": true,
       "_disableAffix": true,
       "_disableContribution": true,
-      "_appLogoPath": "images/Engine4-Logo.png"
+      "_appLogoPath": "images/icon_small.png"
     },
     "postProcessors": [],
     "noLangKeyword": false,

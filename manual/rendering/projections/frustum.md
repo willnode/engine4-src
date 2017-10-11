@@ -24,7 +24,10 @@ This kind of projection is what most people recognize as what is 4D objects look
 |Shift clip|Underward camera location offset relative to pivot|
 |Use Frustum Culling|If yes, vertex will be culled using frustum cones|
 
-[demographic]
+## Demographic
+![demographic](/images/frustum-specs.png)
+
+## Known issue
 
 > [!WARNING]
 > There are known but rare issue where frustum culling might be broken if model were too close to the camera.

@@ -1,4 +1,12 @@
-![Engine4 Logo](images/Engine4-Black.png)
+<style type="text/css">
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+<img class="centerImage" src="images/icon_label.png" alt="Engine4 Logo">
 
 # Welcome to Engine4 Manual v3.0
 
@@ -47,7 +55,7 @@ These honest limitation is our TODOs for the next development of the library.
 + Frustum4 doesn't correctly cull objects if too close.
 + Components isn't organized in add component menu.
 + Gizmos4's late update rendering.
-+ No INeedScaleTransform.
++ ~~No INeedScaleTransform.~~
 
 > [!NOTE]
 > Beta session run until the rest of the month. During it, APIs may updated without notice.

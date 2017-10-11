@@ -68,4 +68,4 @@ Lies in: Every 4D object (optional)
 
 ## Summary
 
-![Component hierarchy in a nutshell](/images/Component-Hierarchy.png)
+![Component hierarchy in a nutshell](/images/components-rendering.png)

@@ -1,32 +1,45 @@
 # Rotation in 4D
 
-Rotation in 4D is kind of weird if you haven't seen it yet. But deep in the analytical process, it's correct and has its own pattern. 
+Rotation in Engine4 is described as either euler or matrix.
 
-## Introduction
+## Rotation as Euler
 
-Take a look to image below where the tesseract is being rotated in 2D, 3D and 4D.
+There are six planes of rotation in four dimension. They're denoted as `x`, `y`, `z`, `t`, `u` and `v`. The first three can be refered as 3D rotation part, and it is designed to be identical with rotations in 3D space.
 
-[image]
+[image in transform]
 
-*What's going on over here?*
+*What's about the rest of three?*
 
-Here's what happening:
+`t`, `u` and `v` refers to rotation planes that *related* with the fourth axis, and `X`, `Y`, `Z` axis, in order.
 
-> info
-> First things first, you need to be informed that rotation is applied around a **plane**, not from an axis. For example, rotation around X axis represents a rotation on YZ plane, etc. This is an important concept before stepping to a higher dimension.
+## Rotation as matrix
 
-So how much rotation planes in 4D? The answer is **6**, and that is rotation on XY, YZ, XZ, XW, YW, ZW planes.
+Four dimensional rotation can be representated as 4x4 order matrix. The main benefit is that matrices do not suffer from gimbal lock. Its detailed implementation is dissuced in the [next article]().
 
-From the image above, the first plane are the 2D rotation, the next two are 3D rotation, and the rest are 4D rotations. 
+## No quaternion
 
-## Make it easy
+Engine4 does not implement quaternion for 4D. Note that this does not mean it is impossible. Quaternion is upgradable to 4D using `rotor` concepts described in Geometry Algebra. The primary reason is that they do no longer provide its main benefit in computation cost.
 
-To keep things simple, Engine4 encode these planes into a single letter
+##### Cost comparison
 
-Rotation on * plane | YZ | XZ | XY | XW | YW | ZW 
---- | --- | --- | --- | --- | --- | ---
-Shortcoded as *     | x | y | z | t | u | v
+|Primitive type|Stored variable|Multiplication cost|Vector rotation cost|
+|---|---|---|---|
+|3D Quaternion|4|16|28|
+|3D (3x3) Matrix|9|27|9|
+|4D Quaternion|8|64|96|
+|4D (4x4) Matrix|16|64|16|
 
-You'll see the short code is used in some part of the library, like when editing the transformation of an object
+[source]
 
-[transform image]
+From the comparison table, we can infer why using quaternion is useful than matrix in 3D space:
+
++ Memory Storage is down by 55%
++ Multiplication between quaternion is 1.69 times faster
++ Even though quaternion multiplication with vector is costly, most people trick them by converting to matrix first (in optimized way)
+
+In 4D combining rotations has the same overhead, so the benefit is gone. Meanwhile, the quaternion to matrix in 4D is much much expensive than 3D (not to mention it is so complicated that nobody have published the code so far) so it is practically useless to bring quaternion to higher dimension.
+
+## Futher explanation
+
+The next section discusses detailed convention used by the library. This article also extended to the scripting implementation for rotations.
+
