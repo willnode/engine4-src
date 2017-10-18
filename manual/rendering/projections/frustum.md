@@ -25,7 +25,7 @@ This kind of projection is what most people recognize as what is 4D objects look
 |Use Frustum Culling|If yes, vertex will be culled using frustum cones|
 
 ## Demographic
-![demographic](/images/frustum-specs.png)
+![demographic](~/images/frustum-specs.png)
 
 ## Known issue
 

@@ -87,7 +87,7 @@ In addition to four primitive shapes, @Engine4.Buffer4 also has been equipped wi
 + [AddCube](xref:Engine4.Buffer4.AddCube(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32))
 + [AddPolygon](xref:Engine4.Internal.Buffer4Extension.AddPolygon(Engine4.Buffer4,System.Int32[]))
 
-[There is still more here](./sequencer.md)
+[There is still more here](sequencer.md)
 
 The illustration below explains the vertex sequence that should be follow for these additional building blocks:
 
@@ -95,6 +95,6 @@ The illustration below explains the vertex sequence that should be follow for th
 
 ## Why need Tetrahedron?
 
-Because cross section projection requires one higher level of given simplex mode. ([more info here](/manual/basics/4d/projection.md)).
+Because cross section projection requires one higher level of given simplex mode. ([more info here](~/manual/basics/4d/projection.md)).
 
 This means while @Engine4.Rendering.Frustum4 requires the same level (e.g. `Solid` -> `Triangle`), @Engine4.Rendering.CrossSection4 does need its higher level (e.g. `Solid` -> `Tetrahedron`). 

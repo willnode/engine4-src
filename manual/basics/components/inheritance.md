@@ -40,7 +40,7 @@ The table below highlights derivations of these components.
 | CrossSection4 | Cross section projection |
 
 > [!NOTE]
-> There is possibility to create custom projection method, however the world only knows two. Anyway if you wish so, [click here](/manual/rendering/projections/custom.html).
+> There is possibility to create custom projection method, however the world only knows two. Anyway if you wish so, [click here](~/manual/rendering/projections/custom.md).
 
 # Collider4
 
