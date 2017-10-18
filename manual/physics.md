@@ -19,7 +19,7 @@ Where the physics engine is in development:
 + `Raycast`
 + `Collision Callback`
 
-Where the physics engine is lack of:
+Where the physics engine is currently lack of:
 + `Convex and concave shapes`
 + `Character controller`
 + `Joints`

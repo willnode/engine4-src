@@ -12,7 +12,7 @@ Engine4 has several structs (primitive data types) to aid transform manipulation
 |@Engine4.Matrix4x5|4x5 basis matrix|Storing rotational and translational transform altogether|
 
 > [!NOTE]
-> Engine4 does not provide Quaternion altough it is possible in 4D. The primary reason is that they do no longer maintain its main benefit in 4D and higher dimension, and very complicated.
+> Engine4 does not provide Quaternion altough it is possible in 4D. The primary reason is that they do no longer maintain its main benefit in 4D and higher dimension, and very complicated. See [here](~/manual/basics/4d/rotation.md).
 
 ## Working with Vector
 
@@ -37,7 +37,7 @@ If you happen to interpolate the current rotation in matrix, try to convert to e
 [code]
 
 > [!WARNING]
-> This section is also telling you that @Engine4.Matrix4.ToEuler is simply bad and should be avoided as possible. Even if the problem mentioned in [known issues](/index.html) may be fixed soon.
+> This section is also telling you that @Engine4.Matrix4.ToEuler(Engine4.Matrix4) is simply bad and should be avoided as possible. Even if the problem mentioned in [known issues](~/index.md) may be fixed soon.
 
 ### Where Matrix is useful
 

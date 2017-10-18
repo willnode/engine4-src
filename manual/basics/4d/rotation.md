@@ -16,7 +16,7 @@ There are six planes of rotation in four dimension. They're denoted as `x`, `y`,
 
 Four dimensional rotation can be representated as 4x4 order matrix. The main benefit is that matrices do not suffer from gimbal lock. Its detailed implementation is dissuced in the [next article]().
 
-## No quaternion
+## No Quaternion
 
 Engine4 does not implement quaternion for 4D. Note that this does not mean it is impossible. Quaternion is upgradable to 4D using `rotor` concepts described in Geometry Algebra. The primary reason is that they do no longer provide its main benefit in computation cost.
 

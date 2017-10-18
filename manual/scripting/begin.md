@@ -2,11 +2,18 @@
 
 These are our recommended pratices when working with scripting for Engine4.
 
-## MonoBehaviour4
+## @Engine4.MonoBehaviour4
 
 You can derive your custom script with @Engine4.MonoBehaviour4 to get quick shortcuts to core components such as @Engine4.MonoBehaviour4.transform4, @Engine4.MonoBehaviour4.renderer4, @Engine4.MonoBehaviour4.rigidbody4, @Engine4.MonoBehaviour4.viewer4. MonoBehaviour4 inherits Unity's MonoBehaviour so all scripting functionalities are preserved.
 
-[template]
+```c#
+using Engine4;
+
+public class MyComponent : MonoBehaviour4
+{
+
+}
+```
 
 ## Vector4 conflicts
 
@@ -23,10 +30,10 @@ using Vector4 = Engine4.Vector4;
 Object transform can be changed like usual, via @Engine4.MonoBehaviour4.transform4.
 
 ```c#
-// example here
+transform4.position += Vector4.up * 10;
 ```
 
-See the next section for more information regarding to transform manipulation.
+See the [next section](transform.md) for more information regarding to transform manipulation.
 
 ## Changing Renderer4/Modeler4/Modifier4 member or property
 
@@ -39,4 +46,9 @@ GetComponent<Primitive4>().radius = 2f;
 renderer4.SetDirty(DirtyLevel.Model);
 ``` 
 
-Remember you don't have to call SetDirty if you only change the object transformation.
+Remember that changing object transformation doesn't require the code to call SetDiry as it's managed automatically behind the scene.
+
+```c#
+transform4.position += Vector4.up * 10;
+// Done, no need to call SetDirty
+```
