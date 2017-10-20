@@ -34,31 +34,37 @@ Note that because Unity is a 3D Game Engine. Engine4 mostly do not use advanced 
 
 ## Limitations
 
-These honest limitation is our TODOs for the next development of the library.
+The development goal of Engine4 is to make the library have similar capabilities like most game engine have.
+Therefore, we put these honest limitation below as our TODOs for the next development of the library.
 
 + Currently does all the hardwork in single main thread (job system?).
-+ No support for rendering via graphic acceleration.
-+ No particle system generator (but we have its renderer).
++ No support for rendering via hardware acceleration.
++ No particle system generator (although we have its renderer).
 + Only limited set of shapes that supported by the Physics Engine.
 + Physics Engine doesn't include joints and character controller.
 + Building shapes can only done via procedural creations.
 + No dedicated 4D graphics solution included (skybox, lighting, fog etc.)
-+ Engine4 is not well suited for multi-scene scenarios.
 + The documentation has many grammar mistake (contrib welcome anyway).
 + There are no real games published with this library so far.
 
 #### Known issues to be resolved during Beta Session
 
-+ Documentation manual is still under work.
++ Documentation manual is still uncomplete.
 + Matrix to euler fail to work for 90 deg singularity cases (this issue only impacts editor experience).
 + UvMapper4 doesn't generate UV correctly.
-+ Frustum4 doesn't correctly cull objects if too close.
-+ Components isn't organized in add component menu.
++ ~~Frustum4 doesn't correctly cull objects if too close.~~
++ ~~Components isn't organized in add component menu.~~
 + Gizmos4's late update rendering.
 + ~~No INeedScaleTransform.~~
++ Raycast and collision callback is yet to be implemented
++ ~~Does not properly handle multi-scene scenario.~~
++ ~~Can't build to any platform because editor snippet in runtime script.~~
 
 > [!NOTE]
-> Beta session run until the rest of the month. During it, APIs may updated without notice.
+> Beta session run until the rest of the month. During it, APIs may changed when stable version released without concerning compatibility.
+
+> [!TIP]
+> Stripped issues means it is already been fixed, altough the fix is not published anywhere for now.
 
 ## Helpful Links
 
