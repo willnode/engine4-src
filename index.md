@@ -50,13 +50,13 @@ Therefore, we put these honest limitation below as our TODOs for the next develo
 #### Known issues to be resolved during Beta Session
 
 + Documentation manual is still uncomplete.
-+ Matrix to euler fail to work for 90 deg singularity cases (this issue only impacts editor experience).
-+ UvMapper4 doesn't generate UV correctly.
++ ~~Matrix to euler fail to work for 90 deg singularity cases.~~
++ ~~UvMapper4 doesn't generate UV correctly.~~ UvMapper is postponed feature, but UVs is ready and works.
 + ~~Frustum4 doesn't correctly cull objects if too close.~~
 + ~~Components isn't organized in add component menu.~~
 + Gizmos4's late update rendering.
 + ~~No INeedScaleTransform.~~
-+ Raycast and collision callback is yet to be implemented
++ ~~Raycast and collision callback is yet to be implemented~~
 + ~~Does not properly handle multi-scene scenario.~~
 + ~~Can't build to any platform because editor snippet in runtime script.~~
 

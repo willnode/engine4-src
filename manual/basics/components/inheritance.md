@@ -18,7 +18,9 @@ The table below highlights derivations of these components.
 
 | Component | Summary |
 |---|---|
-| UvMapper4 | Generate UVs |
+| - | - |
+
+[Create custom modifier]
 
 # Visualizer4
 

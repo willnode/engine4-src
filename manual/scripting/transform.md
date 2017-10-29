@@ -28,16 +28,34 @@ Euler is useful for storing a readable data.
 
 [image]
 
-And also interpolating between rotation via `Lerp`, `RotateToward` or `SmoothDampAngle`.
+You can also interpolate between rotation via @Engine4.Euler4.Lerp(Engine4.Euler4,Engine4.Euler4,System.Single), `RotateToward` or `SmoothDampAngle`.
 
-[code]
+If you happen to interpolate the current rotation in matrix, try to convert to euler at *once*. This is necessary to avoid chaos.
 
-If you happen to interpolate the current rotation in matrix, try to convert to euler at *once*.
+```c#
+// In coroutine ....
+var current = transform4.eulerAngles;
+var target = new Euler4(4, 90); // 90 deg at T (XW plane)
+for(int i = 0; i < 20; i++)
+{
+    transform4.eulerAngles = Euler4.Lerp(current, target, i / 20f);
+    yield return null;
+}
+```
 
-[code]
+```c#
+// Every update with SmoothDampAngle ....
+Euler4 current;
+Euler4 target = new Euler4(4, 90); // 90 deg at T (XW plane)
+Euler4 speed;
 
-> [!WARNING]
-> This section is also telling you that @Engine4.Matrix4.ToEuler(Engine4.Matrix4) is simply bad and should be avoided as possible. Even if the problem mentioned in [known issues](~/index.md) may be fixed soon.
+void Start() { current = transform4.eulerAngles; }
+
+void Update()
+{
+    current = Euler4.SmoothDampAngle(current, target, ref speed, 0.2f);
+}
+```
 
 ### Where Matrix is useful
 
@@ -47,9 +65,13 @@ Matrices is useful for rotating any vector.
 
 And also for combining rotation because its multiplication has no problem with gimbal lock.
 
-[codecomparison]
+```c#
+Euler4 A = transform4.eulerAngles, B = new Euler4(4, 90);
+Euler4 euler = A + B; // Dont' do this! gimbal lock may happen!
 
-This also mean you can create
+Matrix4 C = transform4.rotation, D = Matrix4.Euler4(4, 90);
+Matrix4 matrix = C * D; // No problem :)
+```
 
 ### Where things work for both Euler and Matrix.
 
@@ -61,3 +83,27 @@ If you want to inverse the rotation, you can use @Engine4.Matrix4.Transpose(Engi
 
 Angle around an axis is not exist because in 4D you need two vector (so do the pattern for higher dimension).
 
+## Listening to transform change
+
+```c#
+class MyComponent : MonoBehaviour4
+{
+
+    void OnEnable()
+    {
+        // Register
+        transform4.update += OnTransformUpdate;
+    }
+
+    void OnDisable()
+    {
+        // Unregister
+        transform4.update -= OnTransformUpdate;
+    }
+
+    void OnTransformUpdate ()
+    {
+        // Do something when this transform changed
+    }
+}
+```
