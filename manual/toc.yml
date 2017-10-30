@@ -63,13 +63,13 @@
 - name: Rendering
   href: rendering.md
   items:
-  - name: Projections
-    href: rendering\projections.md
+  - name: Projection
+    href: rendering\projection.md
     items:
     - name: Cross Section
-      href: rendering\projections\crosssection.md
+      href: rendering\projection\crosssection.md
     - name: Frustum
-      href: rendering\projections\frustum.md
+      href: rendering\projection\frustum.md
   - name: Visualizer
     href: rendering\visualizer.md
     items:

@@ -6,7 +6,7 @@
 
 Engine4 editor is equipped with transformation handles to make 4D scenes easier to create.
 
-[translaterotatescale]
+![translaterotatescale](~/images/gizmo-handles.png)
 
 These editor can be activated via Transform4 component or these keyboard shortcuts:
 
@@ -21,6 +21,6 @@ These editor can be activated via Transform4 component or these keyboard shortcu
 
 Transform4 also have a small applet for simple navigation.
 
-[image]
+![image](~/images/gizmo-navigation.png)
 
 These `xyzw` buttons represents 90° rotation in T, U, V (the last is for identity rotation).

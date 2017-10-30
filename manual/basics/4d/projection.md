@@ -8,20 +8,21 @@ There are two projection methods that has been implemented in the library.
 
 Frustum projection works like common camera games and our eye would - further objects get more smaller image. Frustum projection covers what would be commonly known as *perspective* and *orthographic* projection. 
 
-[diagram]
+![example](~/images/tesseract-rgbfrustum.png)
 
 If the object goes out of scope, it gets culled by a set of planes, which the process is commonly known as **frustum culling**.
 
-[frustum cull]
+![example](~/images/rendering-frustumcull.png)
 
 > [!TIP]
-> There's a lot more features and cool tricks to be discovered. More info [here](~/manual/rendering/projections/frustum.md).
+> There's a lot more features and cool tricks to be discovered. More info [here](~/manual/rendering/projection/frustum.md).
 
 ## Cross section Projection
 
-[image]
 
 Cross section takes a completely different way to project a higher dimension. Cross section does that by cutting an object and take the *slice* to lower dimension by rotating it back to an orientation that accesible with lower dimension objects.
+
+![example](~/images/tesseract-rgbcrosssection.png)
 
 ![image how it work](~/images/crosssection-demo.png)
 
@@ -31,9 +32,9 @@ Cross section takes a completely different way to project a higher dimension. Cr
 
 Because you need to know how to cut down something into thing that renderable to 3D graphics (i.e. triangles). One way is to use **tetrahedron** as the building blocks. Why? Because tetrahedron is the simplest possible geometry shape that has a volume, and when it cutted, the result is always either a triangle or quad.
 
-![image tetra cutted](../../../images/tetrahedron-slice.png)
+![image tetra cutted](~/images/tetrahedron-slice.png)
 
 *[source](http://whistleralley.com/polyhedra/tetrahedron.htm)*
 
 > [!TIP]
-> Cross section is the default projection because its simplicity. More info[here](/manual/rendering/projections/crosssection.html).
+> Cross section is the default projection because its simplicity. More info[here](/manual/rendering/projection/crosssection.html).

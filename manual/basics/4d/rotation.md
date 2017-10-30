@@ -6,7 +6,7 @@ Rotation in Engine4 is described as either euler or matrix.
 
 There are six planes of rotation in four dimension. They're denoted as `x`, `y`, `z`, `t`, `u` and `v`. The first three can be refered as 3D rotation part, and it is designed to be identical with rotations in 3D space.
 
-[image in transform]
+[image in transform](~/images/inspector-euler.png)
 
 *What's about the rest of three?*
 
@@ -14,7 +14,7 @@ There are six planes of rotation in four dimension. They're denoted as `x`, `y`,
 
 ## Rotation as matrix
 
-Four dimensional rotation can be representated as 4x4 order matrix. The main benefit is that matrices do not suffer from gimbal lock. Its detailed implementation is dissuced in the [next article]().
+Four dimensional rotation can be representated as 4x4 order matrix. The main benefit is that matrices do not suffer from gimbal lock. Its detailed implementation is dissuced in the [next article](notation.md).
 
 ## No Quaternion
 
@@ -29,7 +29,7 @@ Engine4 does not implement quaternion for 4D. Note that this does not mean it is
 |4D Quaternion|8|64|96|
 |4D (4x4) Matrix|16|64|16|
 
-[source]
+[source](https://www.av8n.com/physics/rotations.htm)
 
 From the comparison table, we can infer why using quaternion is useful than matrix in 3D space:
 
