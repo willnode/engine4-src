@@ -4,6 +4,8 @@ apiRules:
 - exclude:
       uidRegex: ^Engine4\.Example$
 - exclude:
+      uidRegex: ^Engine4\.Physics\.Internal$
+- exclude:
       hasAttribute:
         uid: Engine4.Internal.HideInDocs
 - exclude:

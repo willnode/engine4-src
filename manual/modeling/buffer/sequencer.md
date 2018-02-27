@@ -13,7 +13,7 @@ using Engine4.Internal; // Sequencer (and other tools) is an extension method in
 Suppose you want to create a looping lines that connects 20 vertices.
 
 ```c#
-public override void UploadBuffer(Buffer4 buffer)
+public override void CreateModel(Buffer4 buffer)
 {
     for(int i = 0; i < 20; i++)
         buffer.AddVertex(new Vector4(i,0,0,0)); // create vertex
@@ -26,14 +26,12 @@ public override void UploadBuffer(Buffer4 buffer)
 Instead of loop, you can simplify the segment creation with a single line.
 
 ```c#
-   // for(int i = 0; i < 20; i++)
-   //     buffer.AddSegment(i, (i + 1) % 20); 
     buffer.Sequence(SequenceMode.LineLoop); // cool!
 ```
 
 This is one of many [sequencing presets](xref:Engine4.Internal.SequenceMode).
 
-[sequencepresets]
+![sequencepresets](~/images/modeling-sequencepresets.png)
 
 ## Grid Sequence
 

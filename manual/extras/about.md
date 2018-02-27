@@ -3,8 +3,8 @@
 ```none
 Release Info
 
-version: 3.0-beta
-date: Oct 10, 2017
+version: 3.2
+date: Nov 16, 2017
 ```
 
 See [documentation homepage](~/index.md) for useful links.

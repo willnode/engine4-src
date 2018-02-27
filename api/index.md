@@ -10,7 +10,11 @@ Contains main engine classes and libraries.
 
 ## @Engine4.Internal
 
-Contains shared helper and utilities.
+Contains shared extensions and utilities.
+
+## @Engine4.Physics
+
+Contains components that simulate runtime physics in 4D.
 
 ## @Engine4.Rendering
 
@@ -20,7 +24,7 @@ Contains built-in preset and libraries for certain tasks.
 
 Undocumented namespaces ....
 
-## Engine4.Physics
+## Engine4.Physics.Internal
 
 Contains the internal working of the physics engine.
 

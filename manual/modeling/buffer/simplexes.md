@@ -9,13 +9,13 @@ The simplest shape that you can build for the N-dimension is called `Simplex`. A
 |2-Simplex|Triangle|
 |3-Simplex|Tetrahedron|
 
-Why this is matter? While 3D mesh are built with either points, segments or triangles, Buffer4 will allow you to **create models from bunch of tethrahedron**. The benefit is not just stop there, if you have seen @Engine4.Renderer4 (click if you haven't read yet) then you know this legit dropdown:
+Why this is matter? While 3D mesh are built with either points, segments or triangles, Buffer4 will allow you to **create models from many tethrahedron**. The benefit is not just stop there, if you have seen @Engine4.Renderer4 then you know this legit dropdown:
 
-[visualizerchoices]
+[visualizerchoices](~/images/inspector-visualizermode.png)
 
 Can generate the same shapes, but in different simplexes:
 
-[visualizerinaction]
+[visualizerinaction](~/images/rendering-visualizerdemo.png)
 
 This can happen because in very basic level All Modeler4 should be restricted by its [simplex mode](xref:Engine4.Buffer4.simplex):
 
@@ -87,11 +87,11 @@ In addition to four primitive shapes, @Engine4.Buffer4 also has been equipped wi
 + [AddCube](xref:Engine4.Buffer4.AddCube(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32))
 + [AddPolygon](xref:Engine4.Internal.Buffer4Extension.AddPolygon(Engine4.Buffer4,System.Int32[]))
 
-[There is still more here](sequencer.md)
+[There's more here](sequencer.md)
 
 The illustration below explains the vertex sequence that should be follow for these additional building blocks:
 
-[illustration]
+![illustration](~/images/modeling-extrablocks.png)
 
 ## Why need Tetrahedron?
 

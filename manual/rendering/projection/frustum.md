@@ -2,12 +2,13 @@
 
 Frustum projection projects higher dimensional object by making 'far' objects smaller.
 
-[demo]
+![demo](~/images/tesseract-rgbfrustum.png)
 
 This kind of projection is what most people recognize as what is 4D objects looks like.
 
 ## Visualization Depedency
-|When renderer need # (visualization type)|Give me # (simplex shape)|
+
+|When renderer need # (visualization type)|It needs # (simplex shape)|
 |---|---|
 |Particle|Point|
 |Wire|Line|
@@ -25,9 +26,11 @@ This kind of projection is what most people recognize as what is 4D objects look
 |Use Frustum Culling|If yes, vertex will be culled using frustum cones|
 
 ## Demographic
+
+Demographic below explains the properties in graphics:
+
 ![demographic](~/images/frustum-specs.png)
 
-## Known issue
+## Suitable Usage
 
-> [!WARNING]
-> There are known but rare issue where frustum culling might be broken if model were too close to the camera.
+Frustum may better suited for educational or visual purposes, despite it may be more complicated than cross section. However building model for frustum is easier because it does not deal with `Tetrahedron` as it's a game changer for cross section.

@@ -1,5 +1,38 @@
 # Release Notes
 
+#### V3.2 - Nov 16, 2017
+
+> This update comes with fixes and correction for very basic yet important features.
+
+- `NEW` Render in background thread. [docs](~/manual/rendering/background.md)
+- `FIX` Correction with physics angular velocity integration.
+- `FIX` Incorrect Capsule and Box collision behaviour.
+- `FIX` Correction for buit-in Transform4 vector axes.
+- `FIX` 4D Gizmo randomly not applying position, color, matrices.
+
+#### V3.1 - Nov 1, 2017
+
+> This is the first stable release after very basic features has been corrected and implemented properly. Most APIs have been documented by this version.
+
+- `NEW` Basic physics raycasting system
+- `NEW` Physics Collision callback system
+- `NEW` UV support, Tesseract and Hyperplane have UV implemented by default
+- `NEW` Matrix4.LookAt, Matrix4.Delta
+- `NEW` SimplexMode.Cubes
+- `IMPROVE` Multi scene support
+- `IMPROVE` Navigation UI now shows projection mode
+- `IMPROVE` Transform4 position gizmo now follows local/global
+- `IMPROVE` Primitive structs implements IEquatable<T> to improve performance
+- `IMPROVE` Projections uses array instead of List<T> to improve performance
+- `IMPROVE` Other several performance improvements
+- `FIX` Debugger4 causes player build fail
+- `FIX` Frustum culling get weird behaviour if too close
+- `FIX` Possible null exception on parenting system
+- `FIX` Physics forces discarded if done at init
+- `FIX` Matrix4.ToEuler sigularities
+- `CHANGE` Buffer4 profiles now applies to simplex index (indice) instead of vertices. Making vertex profiles should easier now.
+- `CHANGE` Solid visualizer now must able handle polygon-like vertices
+- `CHANGE` Moving physics component into Engine4.Physics and internal physics engine into Engine4.Physics.Internal
 
 #### V3.0 (Beta) - Oct 10, 2017
 
