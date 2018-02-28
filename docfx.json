@@ -65,7 +65,12 @@
       "_disableBreadcrumb": true,
       "_disableAffix": true,
       "_disableContribution": true,
-      "_appLogoPath": "images/icon_small.png"
+      "_appLogoPath": "images/icon_small.png",
+      "_gitContribute": {
+        "repo": "https://github.com/willnode/engine4-src",
+        "branch": "master",
+        "apiSpecFolder": "docs-ref-overwrite"
+      }
     },
     "postProcessors": [],
     "noLangKeyword": false,

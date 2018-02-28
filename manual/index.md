@@ -10,7 +10,7 @@ Introduction to fourth dimension and the library.
 
 ## @Modeling
 
-![image](~/images/welcome-modeling.png)s
+![image](~/images/welcome-modeling.png)
 
 Learn to procedurally create a 4D object.
 
@@ -30,7 +30,7 @@ Simulate four dimensional objects like in the real world.
 
 ![image](~/images/welcome-scripting.png)
 
-Adapt the scene, add some interactions, make a magic everywhere.
+Adapt the scene, add some interactions, create magic everywhere.
 
 ## @Extras
 

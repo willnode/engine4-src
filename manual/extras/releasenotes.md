@@ -1,5 +1,14 @@
 # Release Notes
 
+#### V3.3 - Feb 28, 2018
+
+> This update comes with necessary updates for latest unity version
+
+- `NEW` 32-bit mesh support for 2017.3 and above
+- `CHANGE` Mark multithreading as *experimental* (hence disabled by default)
+- `FIX` Compiler error and warning for Unity 2017 and 2018.1
+- `FIX` Don't generate dedicated rendering job unless it's turned on
+
 #### V3.2 - Nov 16, 2017
 
 > This update comes with fixes and correction for very basic yet important features.
@@ -79,11 +88,11 @@
 - `CHANGE` MeshRenderer is now included as component requirement
 - `FIX` Bug introduced in 1.1.1 where the editor not updating properly
 
-#### V1.1.1
+#### V1.1.1 - Jan 25, 2016
 
 - Unity 5.6 Support
 
-#### V1.1
+#### V1.1 - Apr 28, 2015
 
 - Unity 4.6 Support.
 - Faster Baking Time.

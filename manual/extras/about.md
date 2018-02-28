@@ -1,15 +1,4 @@
-# About Engine4 
-
-```none
-Release Info
-
-version: 3.2
-date: Nov 16, 2017
-```
-
-See [documentation homepage](~/index.md) for useful links.
-
-***
+# About Engine4
 
 Engine4 (c) Wildan Mubarok 2017.
 
@@ -21,8 +10,8 @@ Engine4 Physics is powered by Zimpel Physics Engine (private repo at this state)
 
 Engine4 Documentation is powered by [DocFX](https://dotnet.github.io/docfx/).
 
-Engine4 Documentation Content is adhere to CC-BY-3.0. Code Snippets can be copied freely without mentioning back.
+Engine4 Documentation Content is adhere to CC-BY-3.0. Code Snippets can be copied freely without any credit.
 
 Engine4 Project is an ambitious, long-term project with incredible passion `everything is upgradable`.
 
--- [willnode](https://willnode.github.io)
+-- [willnode](https://wellosoft.net)
