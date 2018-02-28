@@ -6,7 +6,7 @@ There are two projection methods that has been implemented in the library.
 
 ## Frustum Projection
 
-Frustum projection works like common camera games and our eye would - further objects get more smaller image. Frustum projection covers what would be commonly known as *perspective* and *orthographic* projection. 
+Frustum projection works like common camera games and our eye would - further objects get more smaller image. Frustum projection covers what would be commonly known as *perspective* and *orthographic* projection.
 
 ![example](~/images/tesseract-rgbfrustum.png)
 
@@ -18,7 +18,6 @@ If the object goes out of scope, it gets culled by a set of planes, which the pr
 > There's a lot more features and cool tricks to be discovered. More info [here](~/manual/rendering/projection/frustum.md).
 
 ## Cross section Projection
-
 
 Cross section takes a completely different way to project a higher dimension. Cross section does that by cutting an object and take the *slice* to lower dimension by rotating it back to an orientation that accesible with lower dimension objects.
 

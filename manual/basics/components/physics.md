@@ -30,4 +30,3 @@ Lies in: Active Scene
 ```
 
 `Physics4` is the *head* of the physics simulation. It lies together with `Viewer4`. Disabling the component pauses all physics execution.
-

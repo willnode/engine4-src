@@ -1,7 +1,6 @@
 
 # Transform4 in Editor
 
-
 ## Editor Handle
 
 Engine4 editor is equipped with transformation handles to make 4D scenes easier to create.
@@ -12,10 +11,13 @@ These editor can be activated via Transform4 component or these keyboard shortcu
 
 | Shortcut | Command |
 |---|---|
-|`shift` + `q` | Free mode | 
-|`shift` + `w` | Translate | 
-|`shift` + `e` | Rotate | 
-|`shift` + `r` | Scale, [if available] | 
+|`shift` + `q` | Free mode |
+
+|`shift` + `w` | Translate |
+
+|`shift` + `e` | Rotate |
+
+|`shift` + `r` | Scale, [if available] |
 
 ## Editor Navigation
 

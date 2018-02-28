@@ -42,4 +42,3 @@ In 4D combining rotations has the same overhead, so the benefit is gone. Meanwhi
 ## Futher explanation
 
 The next section discusses detailed convention used by the library. This article also extended to the scripting implementation for rotations.
-

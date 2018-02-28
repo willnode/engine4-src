@@ -23,7 +23,8 @@ This can happen because in very basic level All Modeler4 should be restricted by
 public override void UploadBuffer(Buffer4 buffer)
 {
     // Build vertices here: buffer.AddVertex()
-    switch(buffer.simplex) // The buffer mode is determined internally based on the selected visualization mode 
+    switch(buffer.simplex) // The buffer mode is determined internally based on the selected visualization mode
+
     {
         case SimplexMode.Point: /* build the model based on points: buffer.AddPoint() */ break;
         case SimplexMode.Segment: /* build the model based on segments: buffer.AddSegment() */ break;
@@ -97,4 +98,4 @@ The illustration below explains the vertex sequence that should be follow for th
 
 Because cross section projection requires one higher level of given simplex mode. ([more info here](~/manual/basics/4d/projection.md)).
 
-This means while @Engine4.Rendering.Frustum4 requires the same level (e.g. `Solid` -> `Triangle`), @Engine4.Rendering.CrossSection4 does need its higher level (e.g. `Solid` -> `Tetrahedron`). 
+This means while @Engine4.Rendering.Frustum4 requires the same level (e.g. `Solid` -> `Triangle`), @Engine4.Rendering.CrossSection4 does need its higher level (e.g. `Solid` -> `Tetrahedron`).

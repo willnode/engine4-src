@@ -11,7 +11,7 @@ using Engine4.Rendering;
 public class CustomVisualizer : Visualizer4
 {
 	Buffer3 helper;
-	
+
 	public override SimplexMode WorkingSimplexCase
 	{
 		get

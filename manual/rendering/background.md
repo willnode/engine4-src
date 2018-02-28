@@ -12,7 +12,8 @@ The process above is repeated every time when a change is detected as long as th
 
 ## Pros
 
-+ **Asynchonous**. Your FPS will never be impacted (hence constant) no matter how expensive is the overall operation. 
++ **Asynchonous**. Your FPS will never be impacted (hence constant) no matter how expensive is the overall operation.
+
 + **Multi-threading** in mind. All CPU cores will be fully utilized. And can run while unity is busy with their GPU workload.
 + **Increase in response**. With extra CPU time 4D objects will be rendered faster especially with devices with many core available.
 

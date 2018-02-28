@@ -55,7 +55,7 @@ Overloadable: Yes
 Lies in: Active Scene (can have multiple)
 ```
 
-`Projector4` projects the transformed 4D mesh. It is overloadable because there are [two projections] defined in Engine4. 
+`Projector4` projects the transformed 4D mesh. It is overloadable because there are [two projections] defined in Engine4.
 
 #### @Engine4.Rendering.Visualizer4
 

@@ -22,6 +22,3 @@ These specification is important as each Engine4 projector treat UVs differently
 
 + Frustum4 interpolate all UVs if it culled by frustum cone.
 + CrossSection4 projects UV (eg. `3D` to `2D` for solid projection). This didn't happen for `UV3` (so user may use that for shader effects).
-
-
-

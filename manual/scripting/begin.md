@@ -44,7 +44,7 @@ Changing only its property simply won't work. You have to notify the renderer us
 GetComponent<Primitive4>().radius = 2f;
 // notify
 renderer4.SetDirty(DirtyLevel.Model);
-``` 
+```
 
 Remember that changing object transformation doesn't require the code to call SetDiry as it's managed automatically behind the scene.
 

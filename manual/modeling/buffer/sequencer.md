@@ -71,6 +71,3 @@ buffer.AddBySequence(SequenceMode.LineLoop, a, b, c, d, e, f, g, h, x, x, x); //
 
 > [!NOTE]
 > While `params` usage may impacting performance, it actually doesn't. In most cases Modeler4 only be called [once] per scene lifetime.
-
-
-

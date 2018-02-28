@@ -5,7 +5,7 @@ Engine4 is care about the conventions that used across the library to avoid conf
 
 ## The fourth axis
 
-The fourth axis is denoted by the letter `W`. This applies to whole library API. 
+The fourth axis is denoted by the letter `W`. This applies to whole library API.
 
 Additionally Engine4 uses `overward` for referencing a vector that points to `W`. The opposite vector may also be called as `underward`.
 

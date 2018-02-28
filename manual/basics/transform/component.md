@@ -24,4 +24,3 @@ Please note `Transform` and `Transform4` are mutually exclusive and have nothing
 ## Scaling Dilemma
 
 To avoid transformational problem, Transform4 doesn't apply scaling to its children. It is useful only for components that need it (e.g. `Renderer4` and `Collider`). If you didn't see `scale` in inspector, that's because none of object's components need Transform4 scale.
-
