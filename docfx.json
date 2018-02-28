@@ -28,7 +28,8 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "_site/**",
+          "README.md"
         ]
       }
     ],
@@ -64,7 +65,6 @@
       "_enableSearch": true,
       "_disableBreadcrumb": true,
       "_disableAffix": true,
-      "_disableContribution": true,
       "_appLogoPath": "images/icon_small.png",
       "_gitContribute": {
         "repo": "https://github.com/willnode/engine4-src",

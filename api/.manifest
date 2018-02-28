@@ -723,6 +723,7 @@
   "Engine4.Viewer4.projectorJob": "Engine4.Viewer4.yml",
   "Engine4.Viewer4.SetDirty(Engine4.DirtyLevel)": "Engine4.Viewer4.yml",
   "Engine4.Viewer4.update": "Engine4.Viewer4.yml",
+  "Engine4.Viewer4.Validate": "Engine4.Viewer4.yml",
   "Engine4.Viewer4.viewerToWorldMatrix": "Engine4.Viewer4.yml",
   "Engine4.Viewer4.worldToViewerMatrix": "Engine4.Viewer4.yml",
   "Engine4.ViewerDispatch": "Engine4.ViewerDispatch.yml",
