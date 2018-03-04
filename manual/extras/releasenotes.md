@@ -47,7 +47,7 @@
 
 `Mesh 4D Engine` -> `Engine4`
 
-> V3.0 upgrade fully rewrites the library with more modular approach, better rendering system, including the brand new physics engine. The previous two diverse system now merged to one. Starting from this version the documentation have been improved as html-based. The version released as beta as few features haven't been finished.
+> V3.0 upgrade fully rewrites this library with more modular approach, better rendering system, including the brand new physics engine. The previous two diverse system now merged to one. Starting from this version the documentation have been improved as html-based. The version released as beta as few features haven't been finished.
 
 #### V2.2 - Aug 19, 2017
 
@@ -78,7 +78,7 @@
 
 - `Mesh 4D Engine and Morpher` -> `Mesh 4D Engine`
 
-> V2.0 upgrade fully rewrites the library with the first, real four-dimensional manipulation with basic procedural techniques. The workflow split to two for fulfilling two different projection types. The old code has been preserved as *legacy*
+> V2.0 upgrade fully rewrites this library with the first, real four-dimensional manipulation with basic procedural techniques. The workflow split to two for fulfilling two different projection types. The old code has been preserved as *legacy*
 
 #### V1.2 - Feb 6, 2016
 

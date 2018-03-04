@@ -22,7 +22,7 @@ If you have a plan to create four dimensional games, it's a lot better to start 
 
 ## The Secret Sauce
 
-The library is doing the runtime hardwork without external depedencies. Any input data that feeded into the library are processed into a projected shape that is renderable with conventional 3D rendering engines.
+This library is doing the runtime hardwork without external depedencies. Any input data that feeded into this library are processed into a projected shape that is renderable with conventional 3D rendering engines.
 
 Note that because Unity is a 3D Game Engine. Engine4 mostly do not use advanced features inside as it is *limited* to 3D space.
 
@@ -37,8 +37,8 @@ Note that because Unity is a 3D Game Engine. Engine4 mostly do not use advanced 
 
 ## Limitations
 
-The development goal of Engine4 is to make the library have similar capabilities like most game engine have.
-Therefore, we put these honest limitation below as our TODOs for the next development of the library.
+The development goal of Engine4 is to make this library have similar capabilities like most game engine have.
+Therefore, we put these honest limitation below as our TODOs for the next development of this library.
 
 + No support for rendering via GPU/hardware acceleration.
 + No particle system generator (although Engine4 *does* we have a particle renderer).

@@ -11,7 +11,6 @@ using Engine4;
 
 public class MyComponent : MonoBehaviour4
 {
-
 }
 ```
 

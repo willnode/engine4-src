@@ -11,11 +11,11 @@ The simplest shape that you can build for the N-dimension is called `Simplex`. A
 
 Why this is matter? While 3D mesh are built with either points, segments or triangles, Buffer4 will allow you to **create models from many tethrahedron**. The benefit is not just stop there, if you have seen @Engine4.Renderer4 then you know this legit dropdown:
 
-[visualizerchoices](~/images/inspector-visualizermode.png)
+![visualizerchoices](~/images/inspector-visualizermode.png)
 
 Can generate the same shapes, but in different simplexes:
 
-[visualizerinaction](~/images/rendering-visualizerdemo.png)
+![visualizerinaction](~/images/rendering-visualizerdemo.png)
 
 This can happen because in very basic level All Modeler4 should be restricted by its [simplex mode](xref:Engine4.Buffer4.simplex):
 

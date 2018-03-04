@@ -1,7 +1,7 @@
 
 # Notation and Convention Rules
 
-Engine4 is care about the conventions that used across the library to avoid confusion in the long run.
+Engine4 is care about the conventions that used across this library to avoid confusion in the long run.
 
 ## The fourth axis
 
@@ -20,7 +20,7 @@ This means if rotation planes that related to `W` are set to zero, the object or
 
 ## Rotation convention
 
-A rotation is happening on plane rotations. For simplicity, the library denote that to a single letter.
+A rotation is happening on plane rotations. For simplicity, this library denote that to a single letter.
 
 Rotation on * plane | Shortcoded as *  |
 |---|---|

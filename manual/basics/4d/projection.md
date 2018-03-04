@@ -2,7 +2,7 @@
 
 `Projecting` is a method to illustrate an object to dimension that is lower than the object itself. Projection of four-dimensional is quite challenging if you haven't heard it before.
 
-There are two projection methods that has been implemented in the library.
+There are two projection methods that has been implemented in this library.
 
 ## Frustum Projection
 
@@ -10,7 +10,7 @@ Frustum projection works like common camera games and our eye would - further ob
 
 ![example](~/images/tesseract-rgbfrustum.png)
 
-If the object goes out of scope, it gets culled by a set of planes, which the process is commonly known as **frustum culling**.
+If the object goes out of scope, it will be culled by a set of planes, which in the process is known as **frustum culling**.
 
 ![example](~/images/rendering-frustumcull.png)
 

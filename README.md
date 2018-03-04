@@ -7,7 +7,7 @@ This documentation is generated using [DocFX](https://dotnet.github.io/docfx).
 
 ## Building Locally
 
-Assuming you're using Windows 10:
+Assuming you're using Windows:
 
 1. Clone this repo: `git clone git://github.com/willnode/engine4-src/`
 
@@ -34,3 +34,5 @@ Assembly-CSharp-firstpass.xml
 Copy these files to folder `src` on the cloned repo.
 
 6. Open [buildclean.bat](buildclean.bat) or `docfx --serve`.
+
+7. Generate PDF: `choco install wkhtmltopdf -y` then `docfx --pdf`.

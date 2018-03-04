@@ -1,2 +1,3 @@
 @echo off
-docfx  --loglevel Warning --serve
+docfx  --loglevel Warning
+http-server _site -c-1

@@ -12,11 +12,8 @@ These editor can be activated via Transform4 component or these keyboard shortcu
 | Shortcut | Command |
 |---|---|
 |`shift` + `q` | Free mode |
-
 |`shift` + `w` | Translate |
-
 |`shift` + `e` | Rotate |
-
 |`shift` + `r` | Scale, [if available] |
 
 ## Editor Navigation

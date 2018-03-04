@@ -3,6 +3,8 @@
 
 There are lot of components for rendering inside Engine4. These components below always required in order a rendered and projected 4D object can be generated.
 
+![Component hierarchy in a nutshell](~/images/components-rendering.png)
+
 #### @Engine4.Renderer4
 
 ```none
@@ -66,6 +68,3 @@ Lies in: Every 4D object (optional)
 
 `Visualizer4` sends the projected 3D buffer to MeshFilter. The behaviour can be customized for more complex and fancy looking. It is optional because the default visualizer does not require to be attached in every 4D object.
 
-## Summary
-
-![Component hierarchy in a nutshell](~/images/components-rendering.png)

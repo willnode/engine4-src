@@ -6,7 +6,7 @@ Engine4 have many features to get you up to create four-dimensional games.
 
 ![image](~/images/welcome-basics.png)
 
-Introduction to fourth dimension and the library.
+Introduction to fourth dimension and this library.
 
 ## @Modeling
 
@@ -36,4 +36,4 @@ Adapt the scene, add some interactions, create magic everywhere.
 
 ![image](~/images/welcome-extras.png)
 
-General Information about the library.
+General Information about this library.
